@@ -17,7 +17,7 @@ const now = new Date()
 const nowKorea = new Date(now.getTime() + KOREA_OFFSET)
 
 function dateOnly(date) {
-  return date.toISOString().slice(0, 10)
+  return new Date(date).toISOString().slice(0, 10)
 }
 
 function nextDate(lastDate) {
