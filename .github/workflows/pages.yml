@@ -32,6 +32,8 @@ jobs:
         run: npm ci
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Refresh official draw schedule
         run: npm run update:draws
       - name: Build static site
