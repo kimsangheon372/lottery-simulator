@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-11-11T05:16:35.961Z",
+  "source": "https://www.dhlottery.co.kr/",
+  "status": "verified-schedule",
+  "lotto": {
+    "lastVerified": {
+      "round": 1249,
+      "date": "2026-11-07"
+    },
+    "next": {
+      "round": 1250,
+      "date": "2026-11-14"
+    },
+    "status": "next-draw"
+  },
+  "pension": {
+    "lastVerified": {
+      "round": 340,
+      "date": "2026-11-05"
+    },
+    "next": {
+      "round": 341,
+      "date": "2026-11-12"
+    },
+    "status": "next-draw"
+  }
+}
